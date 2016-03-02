@@ -17,8 +17,10 @@ body {
 }
 
 .long{
-  height: 100px;
-  padding-bottom: 410px;
+  height: 100px !important;
+padding-bottom: 200px;
+overflow: hidden;
+border: solid;
 }
 
 .text-vertical-center {
