@@ -156,6 +156,8 @@ body {
   font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
 }
 
+
+
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
   color: ##1b9cb1;
 }
@@ -173,6 +175,25 @@ body {
   color: #1b9cb1;
 }
 
+@media (max-width: 992px) {
+  #mainNav .navbar-brand {
+    font-size: 1.75em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    width: 70%;
+    padding-top: 3%;
+  }
+
+    #mainNav .navbar-collapse{
+      text-align: center;
+    }
+
+    header.masthead {
+      text-align: center;
+    }
+}
+
 @media (min-width: 992px) {
   #mainNav {
     /*padding-top: 25px;
@@ -183,6 +204,7 @@ body {
     border: none;
     background-color: #f8f8f8;
   }
+
   #mainNav .navbar-brand {
     font-size: 1.75em;
     -webkit-transition: all 0.3s;
@@ -204,7 +226,6 @@ body {
 }
 
 header.masthead {
-  text-align: center;
   color: white;
   /*background-image: url("../img/header-bg.jpg");
   background-repeat: no-repeat;
@@ -217,8 +238,8 @@ header.masthead {
 }
 
 header.masthead .intro-text {
-  padding-top: 150px;
-  padding-bottom: 100px;
+  padding-top: 15%;
+  padding-bottom: 5%;
 }
 
 header.masthead .intro-text .col-lg-3 {
@@ -239,8 +260,9 @@ header.masthead .intro-text .intro-table .intro-table-text{
 
 header.masthead .intro-text .intro-table .intro-table-text .section-link{
   position: relative;
-      top: 30px;
-      margin-top: 20em;
+  top: 30px;
+  margin-top: 20em;
+  text-align: left;
 }
 
 header.masthead .intro-text .intro-table .section-link .fa{
@@ -261,11 +283,11 @@ header.masthead .intro-text .intro-table .section-link a {
 
 header.masthead .intro-text .intro-table {
 	position: relative;
-	height: 600px;
+	height: 100%;
 	margin: 10px 0;
 	background-size: 400%;
 	background-repeat: repeat;
-	padding: 0px;
+	padding: 22% 0px;
 	margin: 0px;
   margin-right: 1%;
 	float: left;
@@ -369,6 +391,12 @@ header.masthead .intro-text .intro-heading {
   padding: 5% 1%
 }
 
+#quote .quote-box .btn-primary{
+  color: #1b9cb1;
+  border-color: #1b9cb1;
+  background-color: white;
+}
+
 #quote .container{
   padding-right: 0px;
   padding-left: 0px;
@@ -384,13 +412,13 @@ header.masthead .intro-text .intro-heading {
 }
 
 
-#portfolio .portfolio-item {
+#services .portfolio-item {
   padding: 5% 2%;
   /*border: 1px solid #ddd;*/
   transition: all 0.3s ease;
 }
 
-#portfolio .portfolio-item .portfolio-link {
+#services .portfolio-item .portfolio-link {
   position: relative;
   display: block;
   max-width: 400px;
@@ -398,7 +426,7 @@ header.masthead .intro-text .intro-heading {
   cursor: pointer;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+#services .portfolio-item .portfolio-link .portfolio-hover {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -410,11 +438,11 @@ header.masthead .intro-text .intro-heading {
   /*border-radius: 60%;*/
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+#services .portfolio-item .portfolio-link .portfolio-hover:hover {
   opacity: 1;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+#services .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
   font-size: 20px;
   position: absolute;
   top: 50%;
@@ -425,15 +453,15 @@ header.masthead .intro-text .intro-heading {
   color: white;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+#services .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
   margin-top: -12px;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3, #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+#services .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3, #services .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
   margin: 0;
 }
 
-#portfolio .portfolio-item .portfolio-caption {
+#services .portfolio-item .portfolio-caption {
   max-width: 400px;
   margin: 0 auto;
   padding: 25px;
@@ -441,24 +469,24 @@ header.masthead .intro-text .intro-heading {
   background-color: #fff;
 }
 
-#portfolio .portfolio-item .portfolio-caption h4 {
+#services .portfolio-item .portfolio-caption h4 {
   margin: 0;
   text-transform: none;
 }
 
-#portfolio .portfolio-item .portfolio-caption p {
+#services .portfolio-item .portfolio-caption p {
   font-size: 16px;
   font-style: italic;
   margin: 0;
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-#portfolio * {
+#services * {
   z-index: 2;
 }
 
 @media (min-width: 767px) {
-  /*#portfolio .portfolio-item {
+  /*#services .portfolio-item {
     margin: 0 0 30px;
   }*/
 }
