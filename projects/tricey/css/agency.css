@@ -114,12 +114,12 @@ section h3.section-subheading {
 }
 
 ::-moz-selection {
-  background: #1b9cb1;
+  background: #fed136;
   text-shadow: none;
 }
 
 ::selection {
-  background: #1b9cb1;
+  background: #fed136;
   text-shadow: none;
 }
 
@@ -132,7 +132,7 @@ img::-moz-selection {
 }
 
 body {
-  -webkit-tap-highlight-color: #1b9cb1;
+  -webkit-tap-highlight-color: #fed136;
 }
 
 #mainNav {
@@ -901,5 +901,5 @@ ul.social-buttons li a {
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #1b9cb1;
+  background-color: #fed136;
 }
