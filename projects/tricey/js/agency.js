@@ -1,24 +1,6 @@
 (function($) {
   "use strict"; // Start of use strict
 
-  var path = './js/inc/privacy-policy.html';
-
-  $.ajax({
-    url: path, //ex. js/templates/mytemplate.handlebars
-    cache: true,
-    success: function(data) {
-      console.log('data', data);
-      var source = data;
-      var template = Handlebars.compile(source);
-      // var Temp = template({test: 'asdfasdfd'});
-      // console.log('Temp', template);
-      $('#privacy').html(Temp); 
-    },
-    done: function(data){
-      console.log('data', data);
-    }
-  });
-
   // Smooth scrolling using jQuery easing
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
