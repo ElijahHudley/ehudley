@@ -114,12 +114,12 @@ section h3.section-subheading {
 }
 
 ::-moz-selection {
-  background: #fed136;
+  background: #1b9cb1;
   text-shadow: none;
 }
 
 ::selection {
-  background: #fed136;
+  background: #1b9cb1;
   text-shadow: none;
 }
 
@@ -132,7 +132,7 @@ img::-moz-selection {
 }
 
 body {
-  -webkit-tap-highlight-color: #fed136;
+  -webkit-tap-highlight-color: #1b9cb1;
 }
 
 #mainNav {
@@ -149,6 +149,8 @@ body {
   background-color: #1b9cb1;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin: 0 auto;
+  margin-top: 10px;
+  margin-right: 10px;
 }
 
 #mainNav .navbar-brand {
@@ -156,10 +158,12 @@ body {
   font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
 }
 
-
-
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
   color: ##1b9cb1;
+}
+
+#mainNav .navbar-brand img{
+  width: 25%;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -184,6 +188,7 @@ body {
     width: 70%;
     padding-top: 3%;
   }
+
 
     #mainNav .navbar-collapse{
       text-align: center;
@@ -267,10 +272,10 @@ header.masthead .intro-text .intro-table .intro-table-text .section-link{
 
 header.masthead .intro-text .intro-table .section-link .fa{
   padding-left: 5%;
-  font-size: 110%;
+  font-size: 145%;
 }
 
-header.masthead .intro-text .intro-table .section-link a {
+header.masthead .intro-text .intro-table .section-link span {
     transition: color 0.4s ease 0s;
     color: #FFFFFF !important;
     font-weight: bold;
@@ -344,6 +349,17 @@ header.masthead .intro-text .intro-heading {
   line-height: 50px;
   margin-bottom: 25px;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+@media (max-width: 768px) {
+  #mainNav .navbar-brand img{
+    width: 41%;
+  }
+
+  header.masthead .intro-text {
+    padding-top: 30%;
+    padding-bottom: 50px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -491,6 +507,11 @@ header.masthead .intro-text .intro-heading {
   }*/
 }
 
+.portfolio-modal {
+  padding-right: 0px;
+}
+
+
 .portfolio-modal .modal-dialog {
   max-width: none;
   height: 100%;
@@ -509,7 +530,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 .portfolio-modal .modal-content h2 {
-  font-size: 3em;
+  font-size: 2.5em;
   margin-bottom: 15px;
 }
 
@@ -555,7 +576,7 @@ header.masthead .intro-text .intro-heading {
   /*Safari and Chrome*/
   z-index: 1051;
   width: 1px;
-  height: 75px;
+  height: 45px;
   margin-left: 35px;
   /*IE 9*/
   -webkit-transform: rotate(45deg);
@@ -568,7 +589,7 @@ header.masthead .intro-text .intro-heading {
   /*Safari and Chrome*/
   z-index: 1052;
   width: 1px;
-  height: 75px;
+  height: 45px;
   /*IE 9*/
   -webkit-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
@@ -901,5 +922,5 @@ ul.social-buttons li a {
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #fed136;
+  background-color: #1b9cb1;
 }
