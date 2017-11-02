@@ -185,9 +185,10 @@ body {
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
-    width: 70%;
+    width: 68%;
     padding-top: 3%;
-  }
+    margin-right: 0px;
+  } 
 
 
     #mainNav .navbar-collapse{
