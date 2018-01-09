@@ -185,10 +185,9 @@ body {
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
-    width: 68%;
+    width: 70%;
     padding-top: 3%;
-    margin-right: 0px;
-  } 
+  }
 
 
     #mainNav .navbar-collapse{
@@ -353,6 +352,16 @@ header.masthead .intro-text .intro-heading {
 }
 
 @media (max-width: 768px) {
+  #mainNav .navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 0rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
   #mainNav .navbar-brand img{
     width: 41%;
   }
