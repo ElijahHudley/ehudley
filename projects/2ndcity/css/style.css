@@ -261,8 +261,9 @@ padding-top: 3px; }
 
 /*----------------- video ---------------*/
 .video-section { position: relative; }
-.video-img { position: relative; }
-.video-img img { width: 100%; width: 100%; height: 100%; }
+.video-img { position: relative; text-align: center;}
+.video-img img { width: 100%; height: 100%; }
+.video-img video {width: 70% !important; height: auto !important;}
 .video-action { position: absolute; top: 40%; left: 47%; }
 
 /*--------------------------------
@@ -346,8 +347,8 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
      5.2 Navigations Regular
     ----------------------------*/
 .hero-section { background: linear-gradient(rgba(19, 19, 18, 0.3), rgba(19, 19, 18, 0.3), rgba(19, 19, 18, 0.3)), url(../images/hero-img.jpg) no-repeat center; background-size: cover; }
-.hero-caption { margin-top: 125px; margin-bottom: 125px; background-color: #262626; }
-.hero-caption-alt { margin-top: 0px; margin-bottom: 0px; background-color: #262626; }
+.hero-caption { margin-top: 125px; margin-bottom: 125px; background-color: rgba(26,26,26,0.8); }
+.hero-caption-alt { margin-top: 0px; margin-bottom: 0px; background-color: rgba(26,26,26,0.8); }
 
 .hero-title { font-size: 32px; color: #fff; line-height: 24px; font-weight: 600; text-transform: uppercase; }
 .hero-text { font-size: 16px; color: #acacac; margin-bottom: 50px; line-height: 26px; }
@@ -474,7 +475,7 @@ visibility: hidden; line-height: 0; height: 0;}*/
 --------------------------*/
 
 /* service section */
-.service-block { }
+.service-block { height: 400px; }
 .service-img { }
 .service-img img { width: 100%; }
 .service-content { text-align: center; }

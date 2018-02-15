@@ -10,10 +10,10 @@ $(document).on('ready', function() {
         autoPlay: true,
         navigationText: ["<i class='fa fa-arrow-circle-left'></i>", "<i class='fa fa-arrow-circle-right'></i>"],
         addClassActive: true
-        
+
 
         // "singleItem:true" is a shortcut for:
-        // items : 1, 
+        // items : 1,
         // itemsDesktop : false,
         // itemsDesktopSmall : false,
         // itemsTablet: false,
@@ -21,9 +21,9 @@ $(document).on('ready', function() {
 
     });
 
+    $( ".service-title" ).each(function(i,e) {
+      $(e).on("click", function(ev){
+        ev.preventDefault();
+      });
+    });
 });
-
-
-
-
-
