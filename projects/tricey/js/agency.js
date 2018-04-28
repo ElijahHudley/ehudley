@@ -1,23 +1,41 @@
 (function($) {
   "use strict"; // Start of use strict
 
-  var path = './js/inc/privacy-policy.html';
+  var paths = ['./js/inc/privacy-policy.html', './js/inc/terms-of-use.html'];
+  //var els = [{$('#privacy')}, {$('#terms')}];
 
   $.ajax({
-    url: path, //ex. js/templates/mytemplate.handlebars
+    url: paths[0], //ex. js/templates/mytemplate.handlebars
     cache: true,
     success: function(data) {
-      console.log('data', data);
       var source = data;
       var template = Handlebars.compile(source);
-      // var Temp = template({test: 'asdfasdfd'});
-      // console.log('Temp', template);
-      $('#privacy').html(Temp); 
-    },
-    done: function(data){
-      console.log('data', data);
+      $('#privacy').html(template);
     }
   });
+
+
+  $.ajax({
+    url: paths[1], //ex. js/templates/mytemplate.handlebars
+    cache: true,
+    success: function(data) {
+      var source = data;
+      var template = Handlebars.compile(source);
+      $('#terms').html(template);
+    }
+  });
+
+
+  setTimeout(function () {
+    $("#cookieConsent").fadeIn(200);
+  }, 4000);
+
+  $("#closeCookieConsent, .cookieConsentOK").click(function(e) {
+    e.preventDefault();
+    $("#cookieConsent").fadeOut(200);
+    return false;
+  });
+
 
   // Smooth scrolling using jQuery easing
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {

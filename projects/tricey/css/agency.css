@@ -53,6 +53,36 @@ section h3.section-subheading {
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+/*Cookie Consent Begin*/
+#cookieConsent {
+    background-color: rgba(20,20,20,0.8);
+    min-height: 7%;
+    font-size: 100%;
+    color: #ccc;
+    line-height: 45px;
+    padding: 8px 0 8px 30px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+    z-index: 9999;
+}
+#cookieConsent button {
+    text-decoration: none;
+}
+
+#cookieConsent button.cookieConsentOK {
+    display: inline-block;
+    border-radius: 5px;
+    /*padding: 0 20px;*/
+    cursor: pointer;
+    float: right;
+    margin: 0px 60px 20px 10px;
+}
+
+/*Cookie Consent End*/
+
 @media (min-width: 768px) {
   section {
     padding: 150px 0;
@@ -115,11 +145,13 @@ section h3.section-subheading {
 
 ::-moz-selection {
   background: #1b9cb1;
+  color: #fff;
   text-shadow: none;
 }
 
 ::selection {
   background: #1b9cb1;
+  color: #fff;
   text-shadow: none;
 }
 
@@ -137,6 +169,10 @@ body {
 
 #mainNav {
   background-color: #f8f8f8;
+}
+
+.clickable {
+    cursor: pointer;
 }
 
 #mainNav .navbar-toggler {
@@ -159,7 +195,7 @@ body {
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: ##1b9cb1;
+  color: #1b9cb1;
 }
 
 #mainNav .navbar-brand img{
@@ -246,6 +282,17 @@ header.masthead .intro-text {
   padding-top: 15%;
   padding-bottom: 5%;
 }
+
+
+header.masthead .intro-text .row1{
+      display: inherit !important;
+      /*-ms-flex-wrap: wrap;
+      flex-wrap: wrap;*/
+      margin-right: -15px;
+      margin-left: -15px;
+      margin-bottom: 55%;
+}
+
 
 header.masthead .intro-text .col-lg-3 {
     -ms-flex: 0 0 24%;
@@ -370,6 +417,26 @@ header.masthead .intro-text .intro-heading {
     padding-top: 30%;
     padding-bottom: 50px;
   }
+
+  header.masthead .intro-text .row1{
+        display: inherit !important;
+        /*-ms-flex-wrap: wrap;
+        flex-wrap: wrap;*/
+        margin-right: -15px;
+        margin-left: -15px;
+        margin-bottom: 58%;
+  }
+
+  header.masthead .intro-text .intro-table .section-link span {
+    transition: color 0.4s ease 0s;
+    color: #FFFFFF !important;
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
+    white-space: nowrap;
+    padding-left: 0%;
+    font-size: 120%;
+}
 }
 
 @media (min-width: 768px) {
@@ -414,7 +481,9 @@ header.masthead .intro-text .intro-heading {
 	background-color: #1b9cb1;
 	height: 50%;
 	color: #fff;
-  padding: 5% 1%
+  padding: 0% 1%;
+  padding-top: 2%;
+  overflow-x: hidden;
 }
 
 #quote .quote-box .btn-primary{
@@ -440,8 +509,8 @@ header.masthead .intro-text .intro-heading {
 
 #services .portfolio-item {
   padding: 5% 2%;
-  /*border: 1px solid #ddd;*/
   transition: all 0.3s ease;
+  margin: 0 auto;
 }
 
 #services .portfolio-item .portfolio-link {
@@ -450,6 +519,12 @@ header.masthead .intro-text .intro-heading {
   max-width: 400px;
   margin: 0 auto;
   cursor: pointer;
+}
+#services .portfolio-item .portfolio-link .wcm-img {
+    margin-left: 3%;
+    width: 89%;
+    text-align: center;
+    padding-left: 1%;
 }
 
 #services .portfolio-item .portfolio-link .portfolio-hover {
@@ -493,6 +568,7 @@ header.masthead .intro-text .intro-heading {
   padding: 25px;
   text-align: center;
   background-color: #fff;
+  min-height: 40%;
 }
 
 #services .portfolio-item .portfolio-caption h4 {
