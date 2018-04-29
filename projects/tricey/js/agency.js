@@ -25,6 +25,19 @@
     }
   });
 
+  $.contactButtons({
+  effect  : 'slide-on-scroll',
+  buttons : {
+        'facebook':   { class: 'facebook',  use: true, icon: 'facebook',    link: 'https://www.facebook.com/digitalseedmedia/', title: 'Follow on Facebook' },
+        'twitter':    { class: 'twitter',   use: true, icon: 'twitter',     link: 'https://twitter.com/digitalseedmedi/', title: 'Follow on Twitter' },
+        'instagram':  { class: 'instagram', use: true, icon: 'instagram', link: 'https://www.instagram.com/digitalseedmedia/', title: 'Follow on Instagram' },
+        'linkedin':   { class: 'linkedin',  use: true, icon: 'linkedin',    link: 'https://www.linkedin.com/digitalseedmedia/', title: 'Visit on LinkedIn' },
+        'google':     { class: 'gplus',     use: false, icon: 'google-plus', link: '', title: 'Visit on Google Plus' },
+        'pinterest':  { class: 'pinterest', use: false, icon: 'pinterest',   link: '', title: 'Follow on Pinterest' },
+        'email':      { class: 'email',     use: false, icon: 'envelope',    link: '', title: 'Send us an email', type: 'email' }
+      } 
+});
+
 
   setTimeout(function () {
     $("#cookieConsent").fadeIn(200);
