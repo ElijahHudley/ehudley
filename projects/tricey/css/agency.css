@@ -618,6 +618,7 @@ header.masthead .intro-text .intro-heading {
 .portfolio-modal .modal-content h2 {
   font-size: 2.5em;
   margin-bottom: 15px;
+  text-align: center;
 }
 
 .portfolio-modal .modal-content p {
@@ -652,6 +653,20 @@ header.masthead .intro-text .intro-heading {
   height: 75px;
   cursor: pointer;
   background-color: transparent;
+}
+
+.portfolio-modal .logo-close-modal {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  width: 15%;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.portfolio-modal .logo-close-modal img{
+    width: 80%;
+    height: 80%;
 }
 
 .portfolio-modal .close-modal:hover {
