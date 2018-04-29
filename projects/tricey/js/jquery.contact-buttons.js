@@ -53,7 +53,7 @@
       oContainer.addClass(settings.effect);
       
       // Add show/hide button
-      var sShowHideBtn = '<button class="contact-button-link show-hide-contact-bar"><span class="fa fa-angle-left"></span></button>';
+      var sShowHideBtn = '<button class="contact-button-link show-hide-contact-bar hide"><span class="fa fa-angle-left"></span></button>';
       oContainer.append(sShowHideBtn);
       
       for ( var i = 0; i < Object.keys(settings.buttons).length; i++) {

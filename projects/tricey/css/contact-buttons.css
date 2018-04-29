@@ -10,9 +10,10 @@
  
  #contact-buttons-bar {
   position: fixed;
-  top: 200px;
+  top: 500px;
   left: -50px;
   width: 50px;
+  z-index: 20;
 }
 
 
@@ -63,6 +64,15 @@
 }
 .contact-button-link.gplus {
   background: #db4437;
+}
+
+.contact-button-link.instagram {
+  background: #009444;
+}
+
+.contact-button-link.hide {
+  background: #8e8e93;
+  color: white;
 }
 
 .contact-button-link.separated {
