@@ -2,7 +2,7 @@
   "name": "hiroic",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://elijahhudley.github.io/",
+  "homepage": "http://elijahhudley.github.io/build",
   "dependencies": {
     "animejs": "^3.2.0",
     "babel": "^6.23.0",
