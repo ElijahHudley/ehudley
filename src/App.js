@@ -11,7 +11,7 @@ import './App.scss';
 class App extends Component {
     render() {
         return (
-        <Router>
+        <Router basename={window.location.pathname || ''}>
             <div className={'wrapper'}>
               <Header />
 

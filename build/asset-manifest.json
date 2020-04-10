@@ -1,7 +1,7 @@
 {
   "main.css": "/build/static/css/main.6d536077.chunk.css",
-  "main.js": "/build/static/js/main.75d16d83.chunk.js",
-  "main.js.map": "/build/static/js/main.75d16d83.chunk.js.map",
+  "main.js": "/build/static/js/main.2609ac6d.chunk.js",
+  "main.js.map": "/build/static/js/main.2609ac6d.chunk.js.map",
   "static/js/1.66c74ebf.chunk.js": "/build/static/js/1.66c74ebf.chunk.js",
   "static/js/1.66c74ebf.chunk.js.map": "/build/static/js/1.66c74ebf.chunk.js.map",
   "runtime~main.js": "/build/static/js/runtime~main.3923d73d.js",
@@ -25,6 +25,6 @@
   "static/media/icons8-twitter.svg": "/build/static/media/icons8-twitter.282068e7.svg",
   "static/css/main.6d536077.chunk.css.map": "/build/static/css/main.6d536077.chunk.css.map",
   "index.html": "/build/index.html",
-  "precache-manifest.b893f711cc44bd05080dda1e38411972.js": "/build/precache-manifest.b893f711cc44bd05080dda1e38411972.js",
+  "precache-manifest.d058e817dc42acc978bc278cfe94c6ed.js": "/build/precache-manifest.d058e817dc42acc978bc278cfe94c6ed.js",
   "service-worker.js": "/build/service-worker.js"
 }
