@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "c26bfbc8fd25fc2d69db",
+    "revision": "bd04ec570bc70d86aa37",
     "url": "/static/css/main.326bf1c7.chunk.css"
   },
   {
-    "revision": "c26bfbc8fd25fc2d69db",
-    "url": "/static/js/main.c26bfbc8.chunk.js"
+    "revision": "bd04ec570bc70d86aa37",
+    "url": "/static/js/main.bd04ec57.chunk.js"
   },
   {
     "revision": "0e7e58f227d2416a2482",
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/static/media/logo_stacked.2a7a4d09.jpg"
   },
   {
-    "revision": "8787d5c82912573d1ee45250437de0e2",
-    "url": "/static/media/Elijah Alexander Hudley - Resume.8787d5c8.pdf"
+    "revision": "7d34c4199779b9b515962472c51ccbf2",
+    "url": "/static/media/Elijah Alexander Hudley - Resume.7d34c419.pdf"
   },
   {
     "revision": "4352d9442023e9c2c9c4c5b86d858547",
@@ -84,7 +84,7 @@ self.__precacheManifest = [
     "url": "/static/media/icons8-twitter.282068e7.svg"
   },
   {
-    "revision": "d80db3cd750a22e011b93dea9836f45b",
+    "revision": "2bd5aef240ba5ace1f9244dd608a62ba",
     "url": "/index.html"
   }
 ];
