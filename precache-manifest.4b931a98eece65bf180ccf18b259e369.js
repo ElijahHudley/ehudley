@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "25fad05c192c49c43b24",
-    "url": "/static/css/main.326bf1c7.chunk.css"
+    "revision": "ee84fa6bc811d0d46f45",
+    "url": "/static/css/main.7a40b6d6.chunk.css"
   },
   {
-    "revision": "25fad05c192c49c43b24",
-    "url": "/static/js/main.25fad05c.chunk.js"
+    "revision": "ee84fa6bc811d0d46f45",
+    "url": "/static/js/main.ee84fa6b.chunk.js"
   },
   {
-    "revision": "0e7e58f227d2416a2482",
-    "url": "/static/js/1.0e7e58f2.chunk.js"
+    "revision": "5fc5ad90c550d50cf164",
+    "url": "/static/js/1.5fc5ad90.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -20,8 +20,12 @@ self.__precacheManifest = [
     "url": "/static/media/logo_stacked.2a7a4d09.jpg"
   },
   {
-    "revision": "4acf32846b1e60d62305b2b92f7ccd1c",
-    "url": "/static/media/Elijah Alexander Hudley - Resume.4acf3284.pdf"
+    "revision": "acd948148ba8739ad78f7df8e6c29e96",
+    "url": "/static/media/Elijah Alexander Hudley - Resume.acd94814.pdf"
+  },
+  {
+    "revision": "7c60a332e8b7721838226b064aee7029",
+    "url": "/static/media/proflie.7c60a332.JPG"
   },
   {
     "revision": "4352d9442023e9c2c9c4c5b86d858547",
@@ -84,7 +88,7 @@ self.__precacheManifest = [
     "url": "/static/media/icons8-twitter.282068e7.svg"
   },
   {
-    "revision": "28ef58e53fd7bb20abd5e9462a71bb0e",
+    "revision": "d7e114b99970092602bc028609dbc1b5",
     "url": "/index.html"
   }
 ];
