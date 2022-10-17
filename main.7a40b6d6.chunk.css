@@ -598,7 +598,7 @@ section {
     float: left
 }
 
-.logo {
+.header .container .logo-container .logo {
     width: 10%;
     opacity: 1;
     float: left;
